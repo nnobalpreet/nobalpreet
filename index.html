@@ -1,0 +1,376 @@
+﻿
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="”description”" content="”Personal" page="" of="" stockholm="" based="" software="" developer="" adrian="" blanco”="">
+  <title>nobalpreet.co</title>
+  <link rel="stylesheet" href="css/adrianblanco.css">
+  <link rel="stylesheet" href="css/github.css">
+  <link rel="stylesheet" href="css/simplegrid.css">
+  <link href="css/css.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#F44336"> 
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+  <body class="home">
+    <div id="sidebar">
+  <div id="mobile-logo">
+    <a href="#home" onmouseover="toggleLogo('red')" onmouseout="toggleLogo('white')" onclick="$(window).scrollTo($('#home'), 400);">
+      <img id="logo" src="images/logo.png">
+    </a>
+  </div>
+  <div id="mobile-nav">
+    <a href="#!" onclick="toggleMenu()" class="white">MENU</a>
+  </div>
+  <nav id="categories" role="navigation">
+    <div class="menu">
+      <ul>
+        <li class="introduction">
+          <a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();">Introduction</a>
+        </li>
+        <li class="portfolio">
+          <a href="#portfolio" onclick="$(window).scrollTo($('#portfolio'), 400, {offset: -50});toggleMenu();">Portfolio</a>
+        </li>
+        <li class="contact">
+          <a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div id="home" class="header">
+  <div id="video-container">
+    <video autoplay loop class="coverr" poster="/images/typing.jpg">
+        <source src="/images/typing.mp4" type="video/mp4" />
+        <source src="/images/typing.webm" type="video/webm" />
+        <img src="/images/fallback3.jpg" title="Your browser does not support the <video> tag">
+    </video>
+  </div>
+  <div class="profile">
+    <img class="circular" src="images/me.jpg" alt="Profile image">
+    <h1>Nobalpreet</h1>
+    <span class="subheading">Software Developer</span>
+  </div>
+  <div class="down-arrow" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="43px" height="33px" viewbox="0 0 43 33" enable-background="new 0 0 43 33" xml:space="preserve">
+      <g>
+        <path fill="#FFFFFF" d="M0.093,1.294c0,3.176,0,7.686,0,8.77l21.408,21.502l21.406-21.502c0-0.836,0-6.08,0-8.77L21.501,22.796   L0.093,1.294z"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<div id="introduction" class="grid grid-pad">
+  <div class="col-1-1">
+    <h2 class="heading">Introduction</h2>
+    <p style="text-align: center">Master of Engineering in Electrical and Computers from Queen's University</p>
+    <div style="text-align: center">
+        <a href="resume.pdf" class="btn btn-lg" title="View Resumé">
+            <i class="zmdi zmdi-file"></i> View Resumé
+	</a>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-background">
+  <div id="portfolio" class="grid grid-pad">
+
+    <div class="col-1-1">
+      <h2 class="heading">Portfolio</h2>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Research Assistant</h3>
+      <a id="cheddarModal" href="#cheddar" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/RA.jpg" alt="Cheddar">
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Web Developer</h3>
+      <a id="materialistModal" href="#materialist" class="modal-link ">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/weby.jpg" alt="WebDeveloper">
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Linux Experience</h3>
+      <a id="qwaitModal" href="#qwait" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/LINUX.jpg" alt="Linux">
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>App Migration</h3>
+      <a id="spinnulatorModal" href="#spinnulator" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/app.jpg" alt="App Migration">
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>LED Management System</h3>
+      <a id="breachModal" href="#breach" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/LED.jpg" alt="Led Management">
+        </div>
+      </a>
+    </div>
+
+    <div class="col-1-3">
+      <h3>Plagrism checker</h3>
+      <a id="voxelModal" href="#voxel" class="modal-link">
+        <div class="overlay-container">
+          <div class="overlay">
+            <i class="zmdi zmdi-zoom-in"></i>
+          </div>
+          <img src="images/PLAG.jpg" alt="Plag Checker">
+        </div>
+      </a>
+    </div>
+
+    <p class="portfolio-footer">My projects can be seen at <a href="https://github.com/nobalpreet" title="My github profile">github.com/nobalpreet</a></p>
+  </div>
+</div>
+
+<div id="contact" class="grid grid-pad">
+  <div class="col-1-1">
+    <h2 class="heading">Contact</h2>
+        <div style="text-align: center">
+        <a>+1-647-878-6495
+	</a>
+    </div>
+    <div class="social">
+      <a href="mailto:n.nobalpreet@queensu.ca" title="n.nobalpreet@queensu.ca" style="left: 0%; right: 66%">
+        <i class="zmdi zmdi-email"></i>
+        <div class="social-text">n.nobalpreet<wbr>@queensu.ca</div>
+      </a>
+      <a href="https://github.com/nobalpreet" title="github.com/nobalpreet" style="left: 33%; right: 33%">
+        <i class="zmdi zmdi-github-box"></i>
+        <div class="social-text">github.com<wbr>/nobalpreet</div>
+      </a>
+      <a href="http://linkedin.com/in/nobalpreet" title="linkedin.com/in/nobalpreet" style="left: 66%; right: 0%">
+        <i class="zmdi zmdi-linkedin-box"></i>
+        <div class="social-text">linkedin.com<wbr>/in/nobalpreet</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Modals -->
+<div id="cheddar" class="modal-container">
+  <div class="modal-background close-cheddar modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-cheddar modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">Research Assistant</h3>
+      <img src="images/RA.jpg" alt="Research Assistant">
+      <p>Research Assistant at Queen's university</p>
+    </div>
+  </div>
+</div>
+
+<div id="materialist" class="modal-container">
+  <div class="modal-background close-materialist modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-materialist modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">Web Developer</h3>
+      <img src="images/weby.jpg" alt="Web Developer">
+      <p>Web Developer at Guru Nanak Dev Uniersity</p>
+    </div>
+  </div>
+</div>
+
+<div id="qwait" class="modal-container">
+  <div class="modal-background close-qwait modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-qwait modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+    <div class="col-1-1">
+      <h3 class="heading-modal">Linux Experience</h3>
+      <img src="images/linux.jpg" alt="linux">
+      <p>Linux Experience</p>
+    </div>
+  </div>
+</div>
+<div id="spinnulator" class="modal-container">
+  <div class="modal-background close-spinnulator modal-close"></div>        
+  <div class="modal-content grid grid-pad">
+    <div class="close-spinnulator modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+    <div class="col-1-1">
+      <h3 class="heading-modal">App Migration</h3>
+      <img src="images/app.jpg" alt="APP">
+      <p>App Migration</p>
+    </div>
+  </div>
+</div>
+
+<div id="breach" class="modal-container">
+  <div class="modal-background close-breach modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-breach modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">LED Management System</h3>
+       <img src="images/LED.jpg" alt="LED">
+      <p>LED Management System</p>
+    </div>
+  </div>
+</div>
+
+<div id="voxel" class="modal-container">
+  <div class="modal-background close-voxel modal-close"></div>
+  <div class="modal-content grid grid-pad">
+    <div class="close-voxel modal-close modal-close-main"> 
+      <i class="zmdi zmdi-close"></i>
+    </div>
+
+    <div class="col-1-1">
+      <h3 class="heading-modal">Plagrism Checker</h3>
+      <img src="images/PLAG.jpg" alt="Plag Checker">
+      <p>Plagrism Checker</p>
+    </div>
+  </div>
+</div>
+
+  </body>
+  <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+<script src="js/scale.fix.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/animatedModal.min.js"></script>
+
+<script type="text/javascript">
+  // Used to make sure that if the user is on mobile,
+  // they will have a fallback image instead of video
+  $(document).ready(function() {
+    if(Modernizr.touch){
+      $("#video-container video").hide();
+      $("#video-container").css("background", "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/images/me.jpg) #111")
+      .css("background-position", "center center")
+      .css("background-size", "cover")
+      .css("min-height", "545px");
+    }
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(document).on("scroll", throttle(onScroll, 50));
+  });
+</script>
+<script>
+  var col = "#FFF";
+  //col = "#F33446";
+
+  $("#cheddarModal").animatedModal({
+    modalTarget: 'cheddar',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+  $("#materialistModal").animatedModal({
+    modalTarget: 'materialist',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+  $("#qwaitModal").animatedModal({
+    modalTarget: 'qwait',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+  $("#spinnulatorModal").animatedModal({
+    modalTarget: 'spinnulator',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+  $("#breachModal").animatedModal({
+    modalTarget: 'breach',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+  $("#voxelModal").animatedModal({
+    modalTarget: 'voxel',
+    color: col,
+    animatedIn: "fadeIn",
+    animatedOut: "fadeOut",
+    animationDuration: "0.4s"
+  });
+
+</script>
+</html>
