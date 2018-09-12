@@ -66,10 +66,8 @@
 </div>
     <div id="home" class="header">
   <div id="video-container">
-    <video autoplay loop class="coverr" poster="/images/typing.jpg">
-        <source src="/images/typing.mp4" type="video/mp4" />
-        <source src="/images/typing.webm" type="video/webm" />
-        <img src="/images/fallback3.jpg" title="Your browser does not support the <video> tag">
+    <video autoplay loop class="coverr" poster="images/java.jpg">
+        <img src="images/java.jpg" title="Your browser does not support the <video> tag">
     </video>
   </div>
   <div class="profile">
@@ -307,7 +305,7 @@
   $(document).ready(function() {
     if(Modernizr.touch){
       $("#video-container video").hide();
-      $("#video-container").css("background", "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(/images/me.jpg) #111")
+      $("#video-container").css("background", "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(images/java.jpg) #111")
       .css("background-position", "center center")
       .css("background-size", "cover")
       .css("min-height", "545px");
